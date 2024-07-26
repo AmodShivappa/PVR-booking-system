@@ -19,7 +19,6 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS Shows (
 
 conn.commit()
 
-# Pre-populate with inbuilt movies and show timings
 inbuilt_movies = [
     ("Avengers", [("10:00 AM", 50), ("1:00 PM", 50), ("4:00 PM", 50)]),
     ("Minions", [("11:00 AM", 50), ("2:00 PM", 50), ("5:00 PM", 50)]),
